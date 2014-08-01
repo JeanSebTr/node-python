@@ -8,6 +8,10 @@ Hyper-beta, don't hesitate to try and report bugs!
 
 ## Installation
 
+For the module to compile, you need cpython's development headers.
+Example for Ubuntu : run ```sudo apt-get install python-dev```
+
+Then simply:
 ```npm install node-python```
 
 ## Usage
