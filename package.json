@@ -1,6 +1,6 @@
 {
   "name": "node-python",
-  "version": "0.0.4",
+  "version": "v0.0.5-rc4",
   "description": "Call python stuff from nodejs",
   "main": "index.js",
   "repository": {
@@ -24,12 +24,18 @@
     }
   ],
   "scripts": {
-    "test": "node test/linker.js"
+    "test": "make test"
   },
   "license": "BSD",
   "gypfile": true,
   "readmeFilename": "README.md",
   "dependencies": {
-    "bindings": "~1.1.1"
+    "bindings": "~1.1.1",
+    "debug": "^1.0.4"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.3",
+    "should": "^4.0.4",
+    "sinon": "^1.10.3"
   }
 }
